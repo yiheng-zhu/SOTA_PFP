@@ -2,4 +2,13 @@
 e.g., python Split_Sequence.py ./evaluate.fasta ./evaluate/
       python Split_Sequence.py ./test.fasta ./test/
 
+[2] Run AnnoPro
+e.g., python Run_AnnoPro.py ./evaluate/
+      python Run_AnnoPro.py ./test/
 
+[3] Check Predition Results for query sequences with length<50 (Not Necessary)
+e.g., python Check_results.py ./evaluate.fasta ./evaluate/
+e.g., python Check_results.py ./test.fasta ./test/
+
+[4] Deal Prediction Results
+e.g., 
