@@ -12,10 +12,10 @@ e.g., python Check_results.py ./test.fasta ./test/
 
 [4] Deal Prediction Results
 e.g., python2 Deal_Results.py ./workdir/
-      workdir includes evaluate and test dir
+      workdir includes evaluate/test dir, MF_term_list, BP_term_list, and CC_term_list
 
 [5] Copy Results
 e.g., python Copy_Results.py ./workdir/ ./workdir/benchmark/
 
 [6] Evaluate Results
-e.g., python Evaluate_All_
+e.g., python Evaluate_All_Pipelines ./workdir/benchmark/
