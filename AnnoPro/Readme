@@ -1,0 +1,3 @@
+a] Split Sequences   
+e.g., python Split_Sequence.py ./evaluate.fasta ./evaluate/
+python Split_Sequence.py ./test.fasta ./test/
