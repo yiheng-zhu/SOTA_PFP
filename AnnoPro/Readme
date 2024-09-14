@@ -11,4 +11,11 @@ e.g., python Check_results.py ./evaluate.fasta ./evaluate/
 e.g., python Check_results.py ./test.fasta ./test/
 
 [4] Deal Prediction Results
-e.g., 
+e.g., python2 Deal_Results.py ./workdir/
+      workdir includes evaluate and test dir
+
+[5] Copy Results
+e.g., python Copy_Results.py ./workdir/ ./workdir/benchmark/
+
+[6] Evaluate Results
+e.g., python Evaluate_All_
