@@ -5,4 +5,9 @@
 [2] Deal results
     e.g., python Deal_Results.py workdir
           workdir includes MF/BP/CC_term_list, evaluate/test_result
-[3] 
+
+[3] Copy Preidction Results
+    e.g., cp -r ./back/ ./dataset/
+          python Copy_Results ./benchmark/ ./dataset/
+[4] Evaluation
+    e.g., python Evaluate_All_Pipelines ./dataset/
