@@ -1,0 +1,8 @@
+[1] Running prediction
+    e.g., python predict.py -i evaluate.fasta -o evaluate_result
+    e.g., python predict.py -i test.fasta -o test_result
+
+[2] Deal results
+    e.g., python Deal_Results.py workdir
+          workdir includes MF/BP/CC_term_list, evaluate/test_result
+[3] 
