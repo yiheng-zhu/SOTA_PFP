@@ -1,5 +1,6 @@
 [1] Copy sequence.fasta in ./pub_data/data_new/
     e.g., cp test.fasta ./pub_data/data_new/
+
 [2] Create data format for test sequences
     e.g., cd ./PredictNew/s1_DataPreprocessing_PredictNew/
           python step0_DataPreprocessingSetting.py
@@ -14,17 +15,21 @@
           python step6_SPOT1DLM_csv_2_aass3ss8.py
           python step7_aa_2_ss3ss8.py
           python step8_pkl2fa.py
+
 [3] Copy the followings files from ./pub_data/data_new/ to ./PredictNew/s3_PredictNew_AlphaBeta/s3_AlphaBeta_bpccmf/data/
     e.g., new_clean_aa.pkl
           new_clean_aa.fa
           new_clean_ss8.pkl
           new_clean_ss8.fa
+
 [4] Running Preidiction
     e.g., step6_cpData_Diamond4New.sh
           step7_PredictAlphaBeta_New.sh
+
 [5] Deal Preidiction Results
     e.g., python Deal_Results workdir
           workdir incldues:MF/BP/CC_term_list, evaluate_results_mf/bp/cc.csv, test_results_mf/bp/cc.csv
+
 [6] Copy Preidction Results
     e.g., cp -r ./back/ ./dataset/
           python Copy_Results ./benchmark/ ./dataset/
