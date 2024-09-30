@@ -1,0 +1,4 @@
+[1] Running Prediction
+    e.g., cp evaluate/test_sequence.fasta in ./example/demo.fa
+          python ./script/predict.py --fasta ./example/demo.fa --outpath ./example/ --gpu
+[2] Copy 
