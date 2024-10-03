@@ -1,1 +1,10 @@
+[1] Copy files from back dir to workdir
+    e.g., cp -r ./back/ ./workdir
+    back dir includes MF/BP/CC dir, each of which includes:
+    (a) train/evaluate/test_gene_label
+    (b) train/evaluate/test_gene_list
+    (c) train/evaluate/test_label_one_hot
+    (d) term_list
 
+[2] 
+    
