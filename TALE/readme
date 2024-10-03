@@ -12,6 +12,7 @@
 [3] Create parent index for each GO term
     e.g., python Find_parents_index.py workdir
 
-[4] 
+[4] Create label matrix for GO term 
+    e.g., python Create_Label_Matrx.py workdir
 
     
