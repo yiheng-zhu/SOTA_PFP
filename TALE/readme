@@ -31,8 +31,11 @@
     where 57 is the models in the 57-th iteration, which achieves the best performance in the test dataset
 
 [8] Deal prediction results
-    e.g., python Post_Deal.py new_workdir
+    e.g., python Deal_Results.py new_workdir
           new_workdir includes evaluate/test_result_mf/bp/cc
 
 [9] Copy prediction results
-    e.g., 
+    e.g., cp -r back_new dir to new_workdir/dataset/
+          python Copy_Results.py new_workdir
+          back_new includes MF/BP/CC dir, each of which includes evaluate/test_gene_label
+
