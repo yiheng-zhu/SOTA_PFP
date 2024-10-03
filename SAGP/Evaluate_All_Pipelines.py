@@ -24,7 +24,7 @@ if __name__=="__main__":
 
     workdir = sys.argv[1]
     type_list = ["MF", "BP", "CC"]
-    pipeline_list = ["DIOMAND"]
+    pipeline_list = ["protein_Result"]
 
     for type in type_list:
 
