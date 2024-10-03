@@ -39,3 +39,9 @@
           python Copy_Results.py new_workdir
           back_new includes MF/BP/CC dir, each of which includes evaluate/test_gene_label
 
+[10] Evaluate TALE performance
+    e.g., python Evaluate_All_pipelines.py new_workdir
+
+[11] Evaluate TALE+ performance by combining TALE and Diamond
+    e.g., python Combine_Result.py root_dir
+ 
