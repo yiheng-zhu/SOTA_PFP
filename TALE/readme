@@ -21,4 +21,9 @@
     e.g., python train.py --data_path ../data/benchmark/MF/ --save_path ../data/benchmark/MF/models/ --batch_size 64
 
 [7] Prediction using the training models
-    
+    e.g., python predict_new.py --trained_model ../data/benchmark/MF/models/57/ckpt_epoch_57 
+          --fasta /data/yihengzhu/GOA/resource/benchmark_gene_new7/test_sequence.fasta 
+          --data ../data/benchmark/MF/ --on mf --result_file ../data/benchmark/test_result_mf
+    where 57 is the models in the 57-th iteration, which achieves the best performance in the test dataset
+
+[8] 
