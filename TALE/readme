@@ -7,6 +7,11 @@
     (d) term_list
 
 [2] Extract Sequences
-    python Extract_Sequence.py workdir
+    e.g., python Extract_Sequence.py workdir
+
+[3] Create parent index for each GO term
+    e.g., python Find_parents_index.py workdir
+
+[4] 
 
     
