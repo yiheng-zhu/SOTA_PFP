@@ -14,5 +14,7 @@
 
 [4] Create label matrix for GO term 
     e.g., python Create_Label_Matrx.py workdir
+[5] Modify train.py, sate.py and hparam.py using our files.
 
+[6]
     
