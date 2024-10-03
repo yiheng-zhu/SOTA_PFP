@@ -24,6 +24,15 @@
     e.g., python predict_new.py --trained_model ../data/benchmark/MF/models/57/ckpt_epoch_57 
           --fasta /data/yihengzhu/GOA/resource/benchmark_gene_new7/test_sequence.fasta 
           --data ../data/benchmark/MF/ --on mf --result_file ../data/benchmark/test_result_mf
+          python predict_new.py --trained_model ../data/benchmark/MF/models/57/ckpt_epoch_57 
+          --fasta /data/yihengzhu/GOA/resource/benchmark_gene_new7/evaluate_sequence.fasta 
+          --data ../data/benchmark/MF/ --on mf --result_file ../data/benchmark/evaluate_result_mf
+
     where 57 is the models in the 57-th iteration, which achieves the best performance in the test dataset
 
-[8] 
+[8] Deal prediction results
+    e.g., python Post_Deal.py new_workdir
+          new_workdir includes evaluate/test_result_mf/bp/cc
+
+[9] Copy prediction results
+    e.g., 
