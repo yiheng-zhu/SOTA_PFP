@@ -14,8 +14,11 @@
 
 [4] Create label matrix for GO term 
     e.g., python Create_Label_Matrx.py workdir
+
 [5] Modify train.py, sate.py and hparam.py using our files.
 
 [6] Training TALE models in src dir
     e.g., python train.py --data_path ../data/benchmark/MF/ --save_path ../data/benchmark/MF/models/ --batch_size 64
+
+[7] Prediction using the training models
     
