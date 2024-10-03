@@ -1,1 +1,8 @@
-
+[1] Extract sequence from name list file
+    e.g., python Extract_Sequence_By_Name_List.py workdir
+          workdir includes train/evaluate/test_gene_list
+[2] Running Diamond 
+    e.g., DIAMONDScore.py workdir
+          workdir includes train/evaluate/test_gene_list, train/evaluate/test_gene_label, term_list
+[3] Evaluation
+    e.g., python Evaluate_All_Pipelines.py workdir
