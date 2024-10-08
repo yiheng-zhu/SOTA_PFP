@@ -54,6 +54,21 @@ def create_interpro_array(name_list):
 
     return interpros
 
+def read_sequence(sequence_file):
+
+    f = open(sequence_file, "r")
+    text = f.read()
+    f.close()
+
+    sequences = []
+    for line in text.splitlines():
+        line = line.strip()
+        if(line.startswith(">")==False):
+            sequences.append(line)
+
+    return sequences
+
+
 def create_esm2_array(name_list):
 
     data = []
@@ -66,7 +81,9 @@ def create_esm2_array(name_list):
 
     return list(data)
 
-def create_dataset(name_list_file, label_file, data_file):
+def create_dataset(sequence_file, name_list_file, label_file, data_file):
+
+    sequences = read_sequence(sequence_file)
 
     name_list = read_name_list(name_list_file)
 
@@ -79,6 +96,8 @@ def create_dataset(name_list_file, label_file, data_file):
     print(len(esm2_data))
 
     df = pd.DataFrame({
+
+        'sequences': sequences,
         'prop_annotations': prop_annotations,
         'interpros': interpros,
         'esm2':esm2_data
@@ -95,9 +114,10 @@ if __name__ == '__main__':
 
     for type in type_list:
         for data_type in data_type_list:
+            sequence_file = workdir + "/" + type + "/" + data_type + "_sequence.fasta"
             name_list_file = workdir + "/" + type + "/" + data_type + "_gene_list"
             label_file = workdir + "/" + type + "/" + data_type + "_gene_label"
             data_file = workdir + "/" + type + "/" + data_type + "_data.pkl"
-            create_dataset(name_list_file, label_file, data_file)
+            create_dataset(sequence_file, name_list_file, label_file, data_file)
 
 
