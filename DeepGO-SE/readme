@@ -1,8 +1,17 @@
-[1] download go-basic files with the version of 2023-04-24:
+[1] download go-basic files with the version of 2023-04-24 in data/ dir:
     go-basic.obo: https://release.geneontology.org/2024-04-24/ontology/go-basic.obo
     go-basic.owl: https://release.geneontology.org/2024-04-24/ontology/go-basic.owl
     go-plus.owl:  https://release.geneontology.org/2024-04-24/ontology/extensions/go-plus.owl
     rename go-basic.obo as go.obo
     rename go-basic.owl as go.owl
 
-[2]
+[2] Normalize go-basic files:
+    groovy groovy/Normalizer.groovy -i data/go.owl -o data/go.norm
+    groovy groovy/makeEl.groovy data/go-plus.owl data/go-plus-el.owl
+    groovy groovy/Normalizer.groovy -i data/go-plus-el.owl -o data/go-plus.norm
+
+[3] Copy following files in data/mf/bp/cc dir:
+    train/evaluate/test_gene_list, train/evaluate/test_gene_list, term_list
+
+[4]
+    
