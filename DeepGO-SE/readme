@@ -13,5 +13,8 @@
 [3] Copy following files in data/mf/bp/cc dir:
     train/evaluate/test_gene_list, train/evaluate/test_gene_list, term_list
 
-[4]
+[4] Create term.pkl files:
+    python Create_Term_File.py /data/
+
+
     
