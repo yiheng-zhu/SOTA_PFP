@@ -1,0 +1,8 @@
+[1] download go-basic files with the version of 2023-04-24:
+    go-basic.obo: https://release.geneontology.org/2024-04-24/ontology/go-basic.obo
+    go-basic.owl: https://release.geneontology.org/2024-04-24/ontology/go-basic.owl
+    go-plus.owl:  https://release.geneontology.org/2024-04-24/ontology/extensions/go-plus.owl
+    rename go-basic.obo as go.obo
+    rename go-basic.owl as go.owl
+
+[2]
