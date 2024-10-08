@@ -19,6 +19,9 @@
 [5] Create interpros.pkl files:
     python Create_InterPro_File.py data/
 
+[6] Create training/evaluate/test dataset:
+    python Create_DataSet data/
+
 
 
 
