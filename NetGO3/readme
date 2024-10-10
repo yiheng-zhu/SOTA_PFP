@@ -1,0 +1,4 @@
+[1] Submit the protein sequences to NetGO 3.0 web server at https://dmiip.sjtu.edu.cn/ng3.0
+    Note:  the max number of protein sequences is 800.
+           Remember the job id !!! This server cannot send prediction results to our mail box. 
+[2] Deal Results
