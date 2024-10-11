@@ -1,3 +1,4 @@
+How to train and evaluate models ?
 [1] download go-basic files with the version of 2023-04-24 in data/ dir:
     go-basic.obo: https://release.geneontology.org/2024-04-24/ontology/go-basic.obo
     go-basic.owl: https://release.geneontology.org/2024-04-24/ontology/go-basic.owl
@@ -21,6 +22,16 @@
 
 [6] Create training/evaluate/test dataset:
     python Create_DataSet data/
+
+[7] Training models:
+    ./train_se.sh deepgozero_esm mf cuda:0 # training DeepGO-SE
+    ./train_se.sh deepgozero mf cuda:0 # training DeepGOZero
+    python train_cnn.py -ont mf -d cuda:0
+
+[8] Evaluate models:
+    python evaluate.py -m deepgocnn -ont mf # evaluate single models
+    evaluate_entailment.py -m deepgozero_esm -ont mf # evaluate multiple models
+
 
 
 
