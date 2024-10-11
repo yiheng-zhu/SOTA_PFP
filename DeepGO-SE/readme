@@ -30,7 +30,7 @@ How to train and evaluate models ?
 
 [8] Evaluate models:
     python evaluate.py -m deepgocnn -ont mf # evaluate single models
-    evaluate_entailment.py -m deepgozero_esm -ont mf # evaluate multiple models
+    python evaluate_entailment.py -m deepgozero_esm -ont mf # evaluate multiple models
 
 
 
