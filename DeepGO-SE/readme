@@ -41,7 +41,15 @@ How to evaluate DeepGOPlus ?
 
 [3] Deal prediction results:
     python Deal_Results_DeepGOCNN.py workdir
-    workdir includes MF/BP/CC dir, each of which includes term_list, evaluate/test_gene_label, evaluate/test_gene_list, and evaluate/test_predictions_deepgocnn.pkl. 
+    workdir includes MF/BP/CC dir, each of which includes term_list, evaluate/test_gene_label, evaluate/test_gene_list, and evaluate/test_predictions_deepgocnn.pkl.
+
+[4] Post-deal prediction results for finding parents terms:
+    python Post_Deal_DeepGOCNN.py workdir
+
+[5] Combine DeepGOCNN and Diamond to create DeepGOPlus results:
+    python Combine_Result.py rootdir
+    rootdir includes deepgocnn and diamond workdirs.
+
 
 
 
