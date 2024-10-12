@@ -32,6 +32,18 @@ How to train and evaluate models ?
     python evaluate.py -m deepgocnn -ont mf # evaluate single models
     python evaluate_entailment.py -m deepgozero_esm -ont mf # evaluate multiple models
 
+How to evaluate DeepGOPlus ?
+[1] Modify traincnn.py 
+
+[2] Use the DeepGOCNN model in evaluate/test dataset:
+    python traincnn.py -ont mf -td valid -ld -d cuda:0
+    python traincnn.py -ont mf -td test  -ld -d cuda:0
+
+[3] Deal prediction results:
+    python Deal_Results_DeepGOCNN.py workdir
+    workdir includes MF/BP/CC dir, each of which includes term_list, evaluate/test_gene_label, evaluate/test_gene_list, and evaluate/test_predictions_deepgocnn.pkl. 
+
+
 
 
 
