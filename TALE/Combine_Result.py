@@ -24,7 +24,6 @@ def combine_result_single(result_file1, result_file2, result_file3, type, w, obo
     result_dict1 = read_result(result_file1)
     result_dict2 = read_result(result_file2)
 
-
     term_list = []
     term_list1 = result_dict1.keys()
     term_list2 = result_dict2.keys()
@@ -56,7 +55,7 @@ def combine_result_single(result_file1, result_file2, result_file3, type, w, obo
 
 def combine_result(result_dir1, result_dir2, result_dir3, w, obo_dict):
 
-    type_list = ["MF"]
+    type_list = ["CC"]
     data_type_list = ["evaluate", "test"]
     for type in type_list:
         for data_type in data_type_list:
@@ -70,7 +69,7 @@ def combine_result(result_dir1, result_dir2, result_dir3, w, obo_dict):
                 os.makedirs(result_dir3 + "/" + type + "/" + data_type + "/" + name)
 
                 result_file1 = result_dir1 + "/" + type + "/" + data_type + "/" + name + "/DIOMAND_" + type
-                result_file2 = result_dir2 + "/" + type + "/" + data_type + "/" + name + "/tale_" + type
+                result_file2 = result_dir2 + "/" + type + "/" + data_type + "/" + name + "/tale_" + type + "_new"
                 result_file3 = result_dir3 + "/" + type + "/" + data_type + "/" + name + "/tale_plus_" + type
                 combine_result_single(result_file1, result_file2, result_file3, type, w, obo_dict)
 
@@ -78,9 +77,7 @@ def combine_result(result_dir1, result_dir2, result_dir3, w, obo_dict):
 
 if __name__ == '__main__':
 
-    for w in range(1, 100):
-
-        print(w)
+    for w in range(51, 52):
 
         workdir = sys.argv[1]
 
