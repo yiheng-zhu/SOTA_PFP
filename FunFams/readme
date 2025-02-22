@@ -1,1 +1,6 @@
-
+[1] download and install cath-tools-genomescan-master.zip 
+[2] Copy "evaluate_sequence.fasta" and "test_sequence.fasta" in ./cath-tools-genomescan-master/data/
+[3] Run genomescan:
+    (a) cd ./cath-tools-genomescan-master/
+    (b) ./apps/cath-genomescan.pl -i data/evaluate_sequence.fasta -l data/funfam-hmm3-v4_2_0.lib -o evaluate_results/
+    (c) ./apps/cath-genomescan.pl -i data/test_sequence.fasta -l data/funfam-hmm3-v4_2_0.lib -o test_results/
