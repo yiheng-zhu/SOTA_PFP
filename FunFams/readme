@@ -4,3 +4,7 @@
     (a) cd ./cath-tools-genomescan-master/
     (b) ./apps/cath-genomescan.pl -i data/evaluate_sequence.fasta -l data/funfam-hmm3-v4_2_0.lib -o evaluate_results/
     (c) ./apps/cath-genomescan.pl -i data/test_sequence.fasta -l data/funfam-hmm3-v4_2_0.lib -o test_results/
+[4] Extract family and map file:
+    (a) python Extract_family_name.py ./evaluate_results/evaluate_sequence.crh ./evaluate_results/evaluate_sequence.family ./evaluate_results/evaluate_sequence.map
+    (b) python Extract_family_name.py ./evaluate_results/test_sequence.crh ./evaluate_results/test_sequence.family ./evaluate_results/test_sequence.map
+[5] 
