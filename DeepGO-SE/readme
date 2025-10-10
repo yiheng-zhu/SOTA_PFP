@@ -13,7 +13,7 @@ How to train and evaluate models ?
     groovy groovy/Normalizer.groovy -i data/go-plus-el.owl -o data/go-plus.norm
 
 [3] Copy following files in data/mf/bp/cc dir:
-    train/valid/test_gene_list, train/valid/test_gene_list, train/valid/test_sequence.fasta, term_list
+    train/valid/test_gene_label, train/valid/test_gene_list, train/valid/test_sequence.fasta, term_list
 
 [4] Create term.pkl files:
     python Create_Term_File.py data/
