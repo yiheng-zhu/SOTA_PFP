@@ -22,7 +22,7 @@ How to train and evaluate models ?
     python Create_InterPro_File.py data/
 
 [6] Create training/evaluate/test dataset:
-    python Create_DataSet data/
+    python Create_DataSet.py data/
 
 [7] Training models:
     ./train_se.sh deepgozero_esm mf cuda:0 # training DeepGO-SE
