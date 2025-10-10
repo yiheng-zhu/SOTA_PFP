@@ -10,6 +10,7 @@
 [5] Download GO terms for templates 
     (a) python Create_GO_for_templates.py ./ evaluate 20
     (b) python Create_GO_for_templates.py ./ test 20
-[6] GO prediction
+[6] Copy mf/bp/cc_term_list in ./workspace/
+[7] GO prediction
     python Create_Prediction_result.py ./workdir
     workdir includes MF/BP/CC_gene_list
