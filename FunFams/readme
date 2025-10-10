@@ -6,7 +6,7 @@
     (c) ./apps/cath-genomescan.pl -i data/test_sequence.fasta -l data/funfam-hmm3-v4_2_0.lib -o test_results/
 [4] Extract family and map file:
     (a) python Extract_family_name.py ./evaluate_results/evaluate_sequence.crh ./evaluate_results/evaluate_sequence.family ./evaluate_results/evaluate_sequence.map
-    (b) python Extract_family_name.py ./evaluate_results/test_sequence.crh ./evaluate_results/test_sequence.family ./evaluate_results/test_sequence.map
+    (b) python Extract_family_name.py ./test_results/test_sequence.crh ./test_results/test_sequence.family ./test_results/test_sequence.map
 [5] Download GO terms for templates 
     (a) python Create_GO_for_templates.py ./ evaluate 20
     (b) python Create_GO_for_templates.py ./ test 20
