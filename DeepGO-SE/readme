@@ -38,10 +38,11 @@ How to train and evaluate models ?
 How to evaluate DeepGOPlus （single model）?
 
 [1] Modify traincnn.py 
+    copy deepgocnn.th in ./data/mf(bp or cc)/
 
 [2] Use the DeepGOCNN model in evaluate/test dataset:
-    python traincnn.py -ont mf -td valid -ld -d cuda:0
-    python traincnn.py -ont mf -td test  -ld -d cuda:0
+    python train_cnn.py -ont mf -td valid -ld -d cuda:0
+    python train_cnn.py -ont mf -td test  -ld -d cuda:0
 
 [3] Deal prediction results:
     python Deal_Results_DeepGOCNN.py workdir
