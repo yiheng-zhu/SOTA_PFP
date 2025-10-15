@@ -58,7 +58,7 @@ How to evaluate DeepGOPlus （single model）?
 How to evaluate DeepGOPlus （ensemble model）?
 
 [1] Use ten DeepGOCNN models in evaluate/test dataset 
-    ./train_se_valid.sh deepgozero_esm mf/bp/cc cuda:0 valid/test # training DeepGO-SE
+    ./train_se_valid.sh deepgozero_esm mf/bp/cc valid/test cuda:0 # training DeepGO-SE
 
 [2] Create ensemble results in evaluate/test dataset 
     python evaluate_entailment.py -m deepgozero_esm -ont mf/bp/cc -td valid/test # 
