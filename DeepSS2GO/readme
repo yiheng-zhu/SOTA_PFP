@@ -10,7 +10,7 @@
           conda activate ESM
           python step3_SPOT1DLM_generate_esm.py
           conda activate ProtTrans
-          step4_SPOT1DLM_generate_prottrans.py
+          python step4_SPOT1DLM_generate_prottrans.py
           conda activate ..
           python step5_SPOT1DLM_run_inference.py
           python step6_SPOT1DLM_csv_2_aass3ss8.py
