@@ -25,8 +25,8 @@
 
 [4] Running Preidiction
     cd ./DeepSS2GO-main/PredictNew/s3_PredictNew_AlphaBeta/s3_AlphaBeta_bpccmf
-    e.g., step6_cpData_Diamond4New.sh
-          step7_PredictAlphaBeta_New.sh
+    e.g., ./step6_cpData_Diamond4New.sh
+          ./step7_PredictAlphaBeta_New.sh
 
 [5] Deal Preidiction Results
     e.g., python Deal_Results workdir
