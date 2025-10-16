@@ -1,5 +1,6 @@
 [1] Copy sequence.fasta in ./pub_data/data_new/
     e.g., cp test.fasta ./pub_data/data_new/
+          rename test.fasta as new_aa.fa
 
 [2] Create data format for test sequences
     e.g., cd ./PredictNew/s1_DataPreprocessing_PredictNew/
