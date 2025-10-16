@@ -1,6 +1,6 @@
 [1] Running prediction
-    e.g., python predict.py -i evaluate.fasta -o evaluate_result
-    e.g., python predict.py -i test.fasta -o test_result
+    e.g., python predict.py evaluate.fasta evaluate_result
+    e.g., python predict.py test.fasta test_result
 
 [2] Deal results
     e.g., python Deal_Results.py workdir
