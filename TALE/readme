@@ -27,6 +27,7 @@
 
 [8] Deal prediction results
     e.g., python2 Deal_Results.py ./data/benchmark/
+          python Get_Average_result_from_Network.py ./data/benchmark/ MF/BP/CC 1 1 1
         
 [9] Copy prediction results
     e.g., cp -r back_new dir to new_workdir/dataset/
