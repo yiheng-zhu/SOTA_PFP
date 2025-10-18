@@ -26,11 +26,11 @@
           python Run_Predict_TALE.py
 
 [8] Deal prediction results
-    e.g., python Deal_Results.py new_workdir
-          new_workdir includes evaluate/test_result_mf/bp/cc
-
+    e.g., python2 Deal_Results.py ./data/benchmark/
+        
 [9] Copy prediction results
     e.g., cp -r back_new dir to new_workdir/dataset/
+          new_workdir includes evaluate/test_result_mf/bp/cc
           python Copy_Results.py new_workdir
           back_new includes MF/BP/CC dir, each of which includes evaluate/test_gene_label
 
