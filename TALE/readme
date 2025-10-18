@@ -19,7 +19,7 @@
 
 [6] Training TALE models in src dir
     e.g., cd ./src/
-          python Run_TALE.py
+          python Run_TALE_Train.py
 
 [7] Prediction using the training models
     e.g., python predict_new.py --trained_model ../data/benchmark/MF/models/57/ckpt_epoch_57 
