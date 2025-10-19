@@ -52,7 +52,7 @@ How to evaluate DeepGOPlus （single model）?
     python Post_Deal_DeepGOCNN.py workdir
 
 [5] Combine DeepGOCNN and Diamond to create DeepGOPlus results:
-    python Combine_Result.py rootdir
+    python Combine_Result_DeepGOCNN.py rootdir
     rootdir includes deepgocnn and diamond workdirs.
 
 How to evaluate DeepGOPlus （ensemble model）?
