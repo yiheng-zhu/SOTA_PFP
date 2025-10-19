@@ -38,5 +38,5 @@
     e.g., python Evaluate_All_pipelines.py new_workdir
 
 [11] Evaluate TALE+ performance by combining TALE and Diamond
-    e.g., python Combine_Result.py root_dir
+    e.g., python Combine_Result_TALE.py root_dir
  
