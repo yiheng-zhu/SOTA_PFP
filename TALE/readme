@@ -30,9 +30,8 @@
           python Get_Average_result_from_Network.py ./data/benchmark/ MF/BP/CC 1 1 1
         
 [9] Copy prediction results
-    e.g., cp -r back_new dir to new_workdir/dataset/
-          new_workdir includes evaluate/test_result_mf/bp/cc
-          python Copy_Results.py new_workdir
+    e.g., cp -r back_new dir to new_workdir
+          python Copy_Results_LLM.py ./data/benchmark/ new_workdir
           back_new includes MF/BP/CC dir, each of which includes evaluate/test_gene_label
 
 [10] Evaluate TALE performance
